@@ -1,0 +1,54 @@
+
+
+body {
+    background-color: white;
+    color: red;
+}
+
+header {
+    color: red;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: white;
+    color: blue;
+}
+
+h1 {
+    color: #ff0000;
+}
+
+h2 {
+    background-color: rgb(147, 240, 128);
+    color: blue;
+}
+
+li {
+    background-color: lightcoral;
+    color: blue;
+}
+
+p {
+    line-height: 1.6;
+    background-color: lightcoral;
+
+}
+
+a {
+    background-color: lightcoral;
+    color: blue;
+    text-decoration: none;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+#alert {
+    color: blue;
+    font-size: 18px;
+}
