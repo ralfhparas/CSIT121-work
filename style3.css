@@ -1,0 +1,89 @@
+/* General Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f8f8f8;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #004466;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background: #006699;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content */
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  padding: 1em;
+}
+
+article {
+  background: #b3d9db;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #004466;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+/* Responsive Layout for Tablet/Desktop */
+@media (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Rearranging order visually using CSS Grid if needed */
+  #lab02 {
+    order: 1;
+  }
+
+  #lab03 {
+    order: 3;
+  }
+
+  #lab05 {
+    order: 2;
+  }
+}
